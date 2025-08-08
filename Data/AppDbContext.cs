@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using LivroCadastro.Models;
+﻿using LivroCadastro.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LivroCadastro.Data

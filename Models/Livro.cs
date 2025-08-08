@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LivroCadastro.Models
 {
@@ -7,7 +6,7 @@ namespace LivroCadastro.Models
     {
         public int LivroId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O título é obrigatório")]
         public string Titulo { get; set; }
 
         [Display(Name = "Escritor")]

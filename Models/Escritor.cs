@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using ProjetoLivro.Models;
 
 namespace LivroCadastro.Models
 {
@@ -8,9 +7,10 @@ namespace LivroCadastro.Models
     {
         public int EscritorId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O nome é obrigatório")]
         public string Nome { get; set; }
 
-        public List<Livro> Livros { get; set; }
+        // Inicializa a lista para evitar null reference
+        public List<Livro> Livros { get; set; } = new List<Livro>();
     }
 }

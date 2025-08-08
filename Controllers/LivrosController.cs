@@ -1,8 +1,8 @@
 ﻿using LivroCadastro.Data;
 using LivroCadastro.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace LivroCadastro.Controllers
 {
@@ -25,6 +25,7 @@ namespace LivroCadastro.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Livro livro)
         {
             if (ModelState.IsValid)
@@ -46,6 +47,7 @@ namespace LivroCadastro.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Livro livro)
         {
             if (ModelState.IsValid)
@@ -65,11 +67,15 @@ namespace LivroCadastro.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var livro = await _context.Livros.FindAsync(id);
-            _context.Livros.Remove(livro);
-            await _context.SaveChangesAsync();
+            if (livro != null)
+            {
+                _context.Livros.Remove(livro);
+                await _context.SaveChangesAsync();
+            }
             return RedirectToAction(nameof(Index));
         }
     }

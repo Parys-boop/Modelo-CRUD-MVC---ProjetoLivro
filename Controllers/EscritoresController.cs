@@ -20,6 +20,7 @@ namespace LivroCadastro.Controllers
         public IActionResult Create() => View();
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Escritor escritor)
         {
             if (ModelState.IsValid)
@@ -38,6 +39,7 @@ namespace LivroCadastro.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Escritor escritor)
         {
             if (ModelState.IsValid)
@@ -52,15 +54,19 @@ namespace LivroCadastro.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var escritor = await _context.Escritores.FindAsync(id);
-            return View(escritor);
+            return escritor == null ? NotFound() : View(escritor);
         }
 
         [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var escritor = await _context.Escritores.FindAsync(id);
-            _context.Escritores.Remove(escritor);
-            await _context.SaveChangesAsync();
+            if (escritor != null)
+            {
+                _context.Escritores.Remove(escritor);
+                await _context.SaveChangesAsync();
+            }
             return RedirectToAction(nameof(Index));
         }
     }
