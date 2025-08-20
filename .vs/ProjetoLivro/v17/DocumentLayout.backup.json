@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|c:\\users\\aluno\\documents\\modelo-crud-mvc---projetolivro\\views\\escritores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|solutionrelative:views\\escritores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|c:\\users\\aluno\\documents\\modelo-crud-mvc---projetolivro\\views\\escritores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|solutionrelative:views\\escritores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|c:\\users\\aluno\\documents\\modelo-crud-mvc---projetolivro\\views\\escritores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|solutionrelative:views\\escritores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|c:\\users\\aluno\\documents\\modelo-crud-mvc---projetolivro\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|solutionrelative:controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|c:\\users\\aluno\\documents\\modelo-crud-mvc---projetolivro\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|solutionrelative:views\\escritores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|c:\\users\\aluno\\documents\\modelo-crud-mvc---projetolivro\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|solutionrelative:controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|c:\\users\\aluno\\documents\\modelo-crud-mvc---projetolivro\\views\\livros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B7E4569-B5AE-4331-9C3D-821769C96A5F}|ProjetoLivro.csproj|solutionrelative:views\\livros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,67 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Escritor.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Escritor.cs",
-              "RelativeDocumentMoniker": "Models\\Escritor.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Escritor.cs",
-              "RelativeToolTip": "Models\\Escritor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T19:01:42.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Livro.cs",
-              "RelativeDocumentMoniker": "Models\\Livro.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Livro.cs",
-              "RelativeToolTip": "Models\\Livro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T19:01:19.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Escritores\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Escritores\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-14T19:01:15.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Escritores\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Escritores\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Escritores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Index.cshtml",
+              "RelativeToolTip": "Views\\Escritores\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-14T19:01:14.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Escritores\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Create.cshtml",
-              "RelativeToolTip": "Views\\Escritores\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-14T19:01:12.475Z",
+              "WhenOpened": "2025-08-20T19:37:37.604Z",
               "EditorCaption": ""
             },
             {
@@ -119,7 +71,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Escritor.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Escritor.cs",
+              "RelativeDocumentMoniker": "Models\\Escritor.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Escritor.cs",
+              "RelativeToolTip": "Models\\Escritor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T19:01:42.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Livro.cs",
+              "RelativeDocumentMoniker": "Models\\Livro.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Models\\Livro.cs",
+              "RelativeToolTip": "Models\\Livro.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T19:01:19.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Escritores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Escritores\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T19:01:15.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Escritores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Escritores\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T19:01:14.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Escritores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Escritores\\Create.cshtml*",
+              "RelativeToolTip": "Views\\Escritores\\Create.cshtml*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T19:01:12.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Views\\Livros\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Livros\\Create.cshtml",
@@ -131,13 +146,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "LivrosController.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Controllers\\LivrosController.cs",
               "RelativeDocumentMoniker": "Controllers\\LivrosController.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\Modelo-CRUD-MVC---ProjetoLivro\\Controllers\\LivrosController.cs",
               "RelativeToolTip": "Controllers\\LivrosController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwv1IAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T18:49:48.79Z",
               "EditorCaption": ""
