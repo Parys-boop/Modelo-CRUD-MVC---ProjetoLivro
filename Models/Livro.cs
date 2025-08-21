@@ -10,6 +10,8 @@ namespace LivroCadastro.Models
         public string Titulo { get; set; }
 
         [Display(Name = "Escritor")]
+
+        [Range(1, int.MaxValue, ErrorMessage = "Você precisa selecionar um escritor.")]
         public int EscritorId { get; set; }
 
         public Escritor Escritor { get; set; }
